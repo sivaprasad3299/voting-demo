@@ -10,7 +10,7 @@ import signal
 import sys
 
 optionA = "Dev"
-optionB = "Ops"
+optionB = "ops"
 name = optionA + " VS " + optionB
 
 redis = Redis(host="redis", db=0)
